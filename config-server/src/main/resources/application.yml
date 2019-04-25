@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/chineseunicorn/SpringCloudConfig/
+          searchPaths: kylin
+          username: chineseunicorn
+          password: 389234778lfxxsbg
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8889/eureka/
