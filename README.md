@@ -1,5 +1,5 @@
 # Spring Cloud
-本项目为Spring Cloud全家桶初步尝试搭建
+本项目为Spring Cloud全家桶初步搭建Demo
 目前设计点：
 1.服务的注册与发现「Eureka」
 2.服务消费者「Ribbon + Rest」
