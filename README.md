@@ -7,3 +7,4 @@
 4.熔断器「Hystrix」
 5.路由网关「Zuul」
 6.分布式配置中心「Spring Cloud Config」
+7.消息总线「Spring Cloud Bus」
